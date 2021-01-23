@@ -1,0 +1,48 @@
+@media (max-width: 991px) {
+  .rewards .cardDetail {
+    position: relative;
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(255, 157, 157);
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: #efefef2b;
+    box-shadow: 0 2px 5px #4343430f;
+  }
+
+  .rewards .cardDetail .imageContainer {
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .rewards .cardDetail .imageContainer img {
+    width: 100%;
+    height: auto;
+  }
+
+  .rewards .cardDetail .detailText {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+  }
+
+  .rewards .cardDetail .detailText .link-detail {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    color: rgb(201, 77, 77);
+  }
+
+  .rewards .cardDetail .detailText p {
+    font-size: 14px;
+    color: rgb(218 124 124);
+  }
+}

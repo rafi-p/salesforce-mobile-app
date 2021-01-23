@@ -1,0 +1,43 @@
+@media (max-width: 991px) {
+  .table {
+    width: 100%;
+  }
+
+  .table table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+  }
+
+  table .backTableColor {
+    background: rgb(201, 77, 77);
+    color: #fff;
+  }
+
+  table th {
+    font-size: 14px;
+    border: 1px solid #ddd;
+  }
+
+  table td {
+    /* overflow: hidden;
+        white-space: pre-wrap; */
+    padding: 5px 5px;
+    word-wrap: break-word;
+    font-size: 13px;
+    border: 1px solid #ddd;
+  }
+
+  .backColorBold {
+    background: #f8f8e4;
+    font-weight: 500;
+  }
+
+  .fontLittle {
+    font-size: 12px;
+  }
+
+  .subHeader {
+    font-size: 12px;
+  }
+}

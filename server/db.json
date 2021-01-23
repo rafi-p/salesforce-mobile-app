@@ -1,0 +1,28 @@
+{
+    "target": [
+      { "id": 1, "title": "Call", "current": 12, "target": 48, "type":"count", "image": "018-bell.png"},
+      { "id": 2, "title": "Store Visibility", "current": 8, "target": 10, "type":"count", "image": "035-document.png"},
+      { "id": 3, "title": "NOO", "current": 8, "target": 20, "type":"count", "image": "009-school-bell.png"},
+      { "id": 4, "title": "Sales Target", "current": 100000000, "target": 200000000, "type":"currency", "image": "048-trophy.png"}
+    ],
+    "wajib": [
+      { "id": 1, "title": "Basic Nutrition", "nilai": 3 },
+      { "id": 2, "title": "Digest & Skin Category Product Knowledge", "nilai": 4 },
+      { "id": 3, "title": "Respiratory Category Product Knowledge", "nilai": 1 },
+      { "id": 4, "title": "Vitamin Category Product Knowledge", "nilai": 4 },
+      { "id": 5, "title": "Salesmanship (Call, Rayon & Outlet)", "nilai": 5 },
+      { "id": 6, "title": "Komunikasi (Publik & Presentasi)", "nilai": 5 }
+    ],
+    "opsional": [
+      { "id": 1, "title": "Negosiasi", "nilai": 4 },
+      { "id": 2, "title": "Handling Objection", "nilai": 1 },
+      { "id": 3, "title": "Analisa dalam Pengambilan Keputusan", "nilai": 3 },
+      { "id": 4, "title": "Branch Operational Proceedure", "nilai": 5 }
+    ],
+    "rewards": [
+      { "id": 1, "title": "Calculator", "overview": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.", "image": "038-calculator.png", "path":"" },
+      { "id": 2, "title": "Current Incentive", "overview": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.", "image": "033-clock.png", "path":"currentIncentive" },
+      { "id": 3, "title": "Last Data Incentive", "overview": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.", "image": "049-idea.png", "path":"lastIncentive" },
+      { "id": 4, "title": "Benefits", "overview": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.", "image": "040-open-book.png", "path":"" }
+    ]
+  }

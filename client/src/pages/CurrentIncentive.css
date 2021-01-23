@@ -1,0 +1,88 @@
+@media (max-width: 991px) {
+  .sectionCurrentIncentive {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .content {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content .titleMonth {
+    font-weight: 400;
+    color: #808080cf;
+  }
+
+  .monthlyIncentive {
+    position: relative;
+    width: 100%;
+  }
+
+  .monthlyIncentive .avatar {
+    vertical-align: middle;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+
+  .monthlyIncentive .cardDetail {
+    position: relative;
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 10px;
+    background: rgb(201, 77, 77);
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px #4343432e;
+  }
+
+  .monthlyIncentive .cardDetail img {
+    width: 20%;
+    height: auto;
+  }
+
+  .monthlyIncentive .cardDetail .detailText {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .monthlyIncentive .cardDetail .detailText .link-detail {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .textTargetSales {
+    width: 100%;
+    height: auto;
+    border: 1px solid #b39d2f;
+    margin-top: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.4rem;
+    margin-bottom: 20px;
+    color: #b39d2f;
+    background: #f1e29b1c;
+    border-radius: 15px;
+    font-size: 13px;
+  }
+
+  .textTargetSales .boldSales {
+    font-weight: 700;
+  }
+}

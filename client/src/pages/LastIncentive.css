@@ -1,0 +1,41 @@
+@media (max-width: 991px) {
+  .sectionLastIncentive {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .headerLastIncentive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    border: 1px solid #000000;
+    width: 100%;
+    font-size: 20px;
+  }
+
+  .headerLastIncentive i {
+    font-size: 25px;
+  }
+
+  .sectionLastIncentive .dataVisual {
+    margin-top: 60px;
+  }
+
+  .months {
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-around;
+    color: rgb(255, 157, 157);
+  }
+}

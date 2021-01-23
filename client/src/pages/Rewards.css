@@ -1,0 +1,44 @@
+@media (max-width: 991px) {
+  .sectionRewards {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .headerRewards {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    width: 100%;
+    font-size: 20px;
+    color: rgb(201, 77, 77);
+    z-index: 2;
+    box-shadow: 0 2px 5px #4343432e;
+  }
+
+  .headerRewards i {
+    font-size: 25px;
+  }
+
+  .rewards {
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .rewards .avatar {
+    vertical-align: middle;
+    width: 75px;
+    height: 75px;
+    /* border-radius: 50%; */
+  }
+}
